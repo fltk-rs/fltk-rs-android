@@ -1,0 +1,13 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["Mohammed Alyousef <may642_2000@hotmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fltk = { version = "0.9.1", features = ["use-ninja"] }

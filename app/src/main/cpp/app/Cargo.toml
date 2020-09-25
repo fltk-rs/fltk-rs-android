@@ -10,4 +10,4 @@ crate-type = ["staticlib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-fltk = { version = "0.9.1", features = ["use-ninja"] }
+fltk = { version = "0.9.2", features = ["use-ninja"] }

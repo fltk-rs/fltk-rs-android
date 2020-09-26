@@ -1,7 +1,7 @@
 use fltk::*;
 
 #[no_mangle]
-pub extern "C" fn main() -> i32 {
+pub extern "C" fn main() {
     let app = app::App::default();
     let mut win = window::AndroidWindow::default();
     let mut frm = frame::Frame::new(220, 300, 160, 80, "0");
@@ -25,7 +25,6 @@ pub extern "C" fn main() -> i32 {
     }));
 
     app.run().unwrap();
-    0
 }
 
 

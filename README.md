@@ -12,7 +12,7 @@ rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-andro
 - Clone the repo
 - Open in Android Studio
 - In the Android Studio terminal, set the ANDROID_SDK_ROOT and ANDROID_NDK_ROOT environment variables. 
-For windows, it's usually found at:
+For windows, it's usually something like:
 ```
 set ANDROID_SDK_ROOT=%HOME%\AppData\Local\Android\Sdk
 set ANDROID_NDK_ROOT=%ANDROID_SDK_ROOT%\ndk\21.0.xxxxx

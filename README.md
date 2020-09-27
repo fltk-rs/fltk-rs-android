@@ -19,8 +19,8 @@ set ANDROID_NDK_ROOT=%ANDROID_SDK_ROOT%\ndk\21.0.xxxxx
 ```
 For posix systems:
 ```
-export ANDROID_SDK_ROOT=%HOME%/Library/Android/sdk
-export ANDROID_NDK_ROOT=%ANDROID_SDK_ROOT%/ndk/21.0.xxxxx
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export ANDROID_NDK_ROOT=$ANDROID_SDK_ROOT/ndk/21.0.xxxxx
 ```
 - From the terminal, run the build for your emulator's triple, assuming it's a Nexus 5 x86:
 ```

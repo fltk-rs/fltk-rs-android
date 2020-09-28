@@ -4,6 +4,10 @@ An example counter app using fltk-rs on Android.
 
 ![image](ex.jpg)
 
+## Requirements
+- Android Studio
+- Android ndk
+
 ## Usage
 - Make sure you have the targets installed:
 ```

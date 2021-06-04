@@ -1,4 +1,6 @@
 use fltk::*;
+use fltk::{prelude::*};
+use fltk::enums::{Color, FrameType};
 
 #[no_mangle]
 pub extern "C" fn main() {
@@ -17,12 +19,13 @@ pub extern "C" fn main() {
     but.set_label_color(Color::White);
     but.set_frame(FrameType::RFlatBox);
     but.clear_visible_focus();
-    but.set_callback(Box::new(move || {
+
+    but.set_callback(move |_| {
         let mut val: i32 = frm.label().parse().unwrap();
         val += 1;
         frm.set_label(&val.to_string());
         app::redraw();
-    }));
+    });
 
     app.run().unwrap();
 }

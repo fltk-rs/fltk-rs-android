@@ -11,3 +11,4 @@ crate-type = ["staticlib"]
 
 [dependencies]
 fltk = "1.0.16"
+
